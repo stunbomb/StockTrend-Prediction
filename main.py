@@ -12,7 +12,6 @@ training_set = dataset_train.iloc[:, 1:2].values
 training_set
 sc = MinMaxScaler(feature_range = (0,1))
 training_set_scaled = sc.fit_transform(training_set)
-
 x_train = []
 y_train = []
 for i in range(120, 1258): #we have 1258 dates in our excel file
