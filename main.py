@@ -6,6 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 import math
 from sklearn.metrics import mean_squared_error
 
+#Data retrieved from Yahoo finance
 dataset_train = pd.read_csv('Google_Stock_Price_Train.csv')
 training_set = dataset_train.iloc[:, 1:2].values 
 
